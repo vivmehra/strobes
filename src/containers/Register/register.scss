@@ -1,0 +1,22 @@
+.fluidForm {
+  padding-bottom: 2rem;
+}
+// .landing-page--text__fluid {
+//   height: 1rem;
+//   margin-top: 3rem;
+// }
+.landing-page__p {
+  //   @include carbon--type-style("productive-heading-01");
+  //   margin-top: $spacing-06;
+  margin-bottom: $spacing-08;
+
+  @include carbon--breakpoint-between((320px + 1), md) {
+    max-width: 75%;
+  }
+}
+.continue {
+  background-color: #0f62fe;
+}
+.select {
+  width: 100px;
+}

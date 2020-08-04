@@ -1,0 +1,17 @@
+.landing-page__subheading {
+  padding-top: 2rem;
+  @include carbon--type-style("productive-heading-03");
+  @include carbon--font-weight("semibold");
+}
+.landing-page__p {
+  //   @include carbon--type-style("productive-heading-01");
+  //   margin-top: $spacing-06;
+  margin-bottom: $spacing-08;
+
+  @include carbon--breakpoint-between((320px + 1), md) {
+    max-width: 75%;
+  }
+}
+.login_link {
+  padding-left: 1rem;
+}
